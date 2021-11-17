@@ -4,10 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>HTML 5 Boilerplate</title>
+    <title>Poem Finder</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
 	<script src="index.js"></script>
+    <h1 class="navbar"><img src ="imgs/navbar.png" alt="poem-logo"/>Poem Finder</h1>
+    <div class="boxed">
+    <h2 id="PoemsHeader">Find Poems</h2>
+    <h3>Use the form below to access poems written by a certain author</h3>
+    <form action= "" method="post">
+        <label for="authors">Choose Author:</label>
+        <select name= "dropdown">
+        <option value = "Please Choose An Author" selected>Please Select Author</option>
+        <option value= "Edgar Allen Poe">Edgar Allen Poe</option>
+        <option value= "Edward Fitzgerald">Edward Fitzgerald</option>
+        <option value= "Mark Twain">Mark Twain</option>
+        <option value= "Oscar Wilde">Oscar Wilde</option>
+        <option value= "Ralph Waldo Emerson">Ralph Waldo Emerson</option>
+        <option value= "Walt Whitman">Walt Whitman</option>
+        <option value= "William Shakespeare">William Shakespeare</option>
+        </select>
+        <button type="button">Submit</button>
+    </form>
+    </div>
   </body>
+  <footer>Website made by Jasmine Duruji</footer>
 </html>

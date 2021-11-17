@@ -1,0 +1,56 @@
+body {
+    background-color:lightseagreen;
+    text-align: center;
+    margin: 0;
+}
+
+.navbar {
+background-color:blue; 
+margin: 0;
+padding: 15px;
+text-align: left;
+padding-left: 275px;
+}
+
+h1 {
+    color: white;
+}
+ 
+h3 {
+    font-size: 30px;
+}
+
+label {
+    font-size: 25px;
+}
+
+footer {
+    margin-top: 135px;
+    background-color: blue;
+    padding: 10px;
+    color: white;
+}
+
+#PoemsHeader{
+    font-size: 40px;
+}
+
+.boxed {
+    border: 80px solid gray ;
+    margin-bottom: 100px;
+    background-color:gray;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+  }
+
+  button {
+      background-color:lightgreen;
+      border-radius: 100px;
+      width: 80px;
+      height: 35px;
+  }
+
+  img {
+    width: 100px;
+  }
