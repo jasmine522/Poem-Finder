@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-
+//API function fetches peom, parses each poem to only show the poems that has up to 20 lines, appends to DOM
 
   function apiFetch (){
         fetch("https://poetrydb.org/random")
@@ -26,10 +26,10 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
-    
+//Variable for button     
 const btnSubmitResult = document.querySelector("#btn")
 
-
+//Event Listener for when the button is clicked 
 btnSubmitResult.addEventListener("click", function(){
     apiFetch();
 })
