@@ -47,10 +47,22 @@ footer {
   button {
       background-color:lightgreen;
       border-radius: 100px;
-      width: 80px;
+      width: 250px;
       height: 35px;
   }
 
   img {
     width: 100px;
+  }
+
+  #dropdown {
+      background-color: burlywood;
+  }
+
+  #poems {
+      background-color: blanchedalmond;
+  }
+
+  #loading {
+    background: #333("imgs/loading.gif")
   }

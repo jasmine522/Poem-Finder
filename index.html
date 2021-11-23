@@ -11,23 +11,12 @@
 	<script src="index.js"></script>
     <h1 class="navbar"><img src ="imgs/navbar.png" alt="poem-logo"/>Poem Finder</h1>
     <div class="boxed">
-    <h2 id="PoemsHeader">Find Poems</h2>
-    <h3>Use the form below to access poems written by a certain author</h3>
-    <form action= "" method="post">
-        <label for="authors">Choose Author:</label>
-        <select name= "dropdown">
-        <option value = "Please Choose An Author" selected>Please Select Author</option>
-        <option value= "Edgar Allen Poe">Edgar Allen Poe</option>
-        <option value= "Edward Fitzgerald">Edward Fitzgerald</option>
-        <option value= "Mark Twain">Mark Twain</option>
-        <option value= "Oscar Wilde">Oscar Wilde</option>
-        <option value= "Ralph Waldo Emerson">Ralph Waldo Emerson</option>
-        <option value= "Walt Whitman">Walt Whitman</option>
-        <option value= "William Shakespeare">William Shakespeare</option>
-        </select>
-        <button type="button">Submit</button>
-    </form>
+    <h2 id="PoemsHeader">Poem Of The Day</h2>
+    <h3>Feel like reading? Click the button below to find a poem to read for the day</h3>
+        <button id= "btn">Find Poem</button>
     </div>
+    <div id="loading"></div>
+    <div id="poems"></div>
+      <footer>Website made by Jasmine Duruji</footer>
   </body>
-  <footer>Website made by Jasmine Duruji</footer>
 </html>
