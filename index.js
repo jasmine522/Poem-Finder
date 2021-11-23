@@ -26,10 +26,10 @@ function apiFetch (){
         });
     }
 
-//Variable for button     
+//Variable for Find Poem button     
 const btnSubmitResult = document.querySelector("#btn")
 
-//Event Listener for when the button is clicked 
+//Event Listener for when the Find Poem button is clicked 
 btnSubmitResult.addEventListener("click", function(){
     apiFetch();
 })
