@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
-    
-//API function fetches peom, parses each poem to only show the poems that has up to 20 lines, appends to DOM
+
+//API function fetches poem, parses each poem to only show the poems that has up to 20 lines, maps the data to show the title, author and lines of each poem, appends to DOM
 function apiFetch (){
         fetch("https://poetrydb.org/random")
         .then(response => {
