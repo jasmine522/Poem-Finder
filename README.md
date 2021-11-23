@@ -1,2 +1,2 @@
 # Poem-Finder
-As a user, I want to pull up a random poem so that I can read it.
+This is a simple webiste where a user can pull up a random poem for the day to read it.
