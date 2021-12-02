@@ -29,6 +29,12 @@ function apiFetch (){
 //Variable for Find Poem button     
 const btnSubmitResult = document.querySelector("#btn")
 
+// Wait for window load
+$(window).load(function() {
+// Animate loader off screen
+    $(".se-pre-con").fadeOut("slow");;
+});
+
 //Event Listener for when the Find Poem button is clicked 
 btnSubmitResult.addEventListener("click", function(){
     apiFetch();
