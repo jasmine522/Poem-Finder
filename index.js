@@ -34,7 +34,7 @@ $(window).load(function() {
     $(".se-pre-con").fadeOut("slow");;
 });
 
-//Event Listener for when the Find Poem button is clicked 
+
 btnSubmitResult.addEventListener("click", function(){
     apiFetch();
 })
