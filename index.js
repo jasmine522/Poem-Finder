@@ -1,6 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
 
-//API function fetches poem, parses each poem to only show the poems that has up to 20 lines, maps the data to show the title, author and lines of each poem, appends to DOM
 function apiFetch (){
         fetch("https://poetrydb.org/random")
         .then(response => {
@@ -26,12 +25,12 @@ function apiFetch (){
         });
     }
 
-//Variable for Find Poem button     
+    
 const btnSubmitResult = document.querySelector("#btn")
 
-// Wait for window load
+
 $(window).load(function() {
-// Animate loader off screen
+
     $(".se-pre-con").fadeOut("slow");;
 });
 
