@@ -27,4 +27,3 @@ TO CREATE YOUR OWN COPY OF THIS PROJECT:
 RESOURCES USED:
  
  Built with HTML, CSS, Javascript and some Jquery. 
->>>>>>> c32330e9aab085ab9aba90a2623289c7c0e99d38
