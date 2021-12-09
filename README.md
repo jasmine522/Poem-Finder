@@ -7,6 +7,8 @@ All the user needs to do is click on the Find Poem button and a random poem will
 
 Here is the link for my blog post https://medium.com/@jasminedrj/poem-finder-website-c47da540671a
 
+Here is the video walkthrough: https://www.youtube.com/watch?v=BjangxsfXEI
+
 TO CREATE YOUR OWN COPY OF THIS PROJECT:
 
 1. Fork this repo
